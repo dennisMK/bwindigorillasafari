@@ -1,0 +1,183 @@
+[31-Jan-2022 05:55:09 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 05:55:10 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 05:55:18 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:12:10 America/New_York] PHP Warning:  require(controllers/help.php): failed to open stream: No such file or directory in /home/pagyiadmin/public_html/libs/Bootstrap.php on line 31
+[31-Jan-2022 06:12:10 America/New_York] PHP Warning:  require(controllers/help.php): failed to open stream: No such file or directory in /home/pagyiadmin/public_html/libs/Bootstrap.php on line 31
+[31-Jan-2022 06:12:10 America/New_York] PHP Fatal error:  require(): Failed opening required 'controllers/help.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/pagyiadmin/public_html/libs/Bootstrap.php on line 31
+[31-Jan-2022 06:12:14 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:12:24 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:17:50 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:17:57 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:17:59 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:18:01 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:27:02 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:28:53 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin@pagyi.solutions'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:29:50 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin@pagyi.solutions'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:29:53 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin@pagyi.solutions'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:30:19 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin@pagyi.solutions'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:31:09 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:31:11 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:31:12 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
+[31-Jan-2022 06:32:09 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'pagyiadmin_wmt-data-admin'@'localhost' (using password: YES) in /home/pagyiadmin/public_html/libs/Database.php:12
+Stack trace:
+#0 /home/pagyiadmin/public_html/libs/Database.php(12): PDO->__construct('mysql:host=loca...', 'pagyiadmin_wmt-...', 'mt-daP@ssw0rd')
+#1 /home/pagyiadmin/public_html/libs/View.php(7): Database->__construct()
+#2 /home/pagyiadmin/public_html/libs/Controller.php(6): View->__construct()
+#3 /home/pagyiadmin/public_html/controllers/index.php(6): Controller->__construct()
+#4 /home/pagyiadmin/public_html/libs/Bootstrap.php(22): Index->__construct()
+#5 /home/pagyiadmin/public_html/index.php(9): Bootstrap->__construct()
+#6 {main}
+  thrown in /home/pagyiadmin/public_html/libs/Database.php on line 12
